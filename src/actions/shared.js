@@ -3,9 +3,7 @@ import { receiveUsers } from '../actions/users'
 import { receivePolls } from '../actions/polls'
 import { setAuthedUser } from '../actions/authedUser'
 
-
-const AUTHED_ID = 'tylermcginnis'
-
+const AUTHED_ID = 'dan_abramov'
 
 export function handleInitialData() {
   return (dispatch) => {
