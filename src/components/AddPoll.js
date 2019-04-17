@@ -29,7 +29,7 @@ class AddPoll extends Component {
 
   handleSubmit = (e) => {
     e.preventDefault()
-    // Redirect to /
+    // Redirect to /homepage
     console.log('Add poll: ', this.state)
   }
 
